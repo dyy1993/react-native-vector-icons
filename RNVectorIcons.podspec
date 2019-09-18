@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.license        = "MIT"
   s.author         = { "Joel Arvidsson" => "joel@oblador.se" }
   s.platform       = :ios, "7.0"
+  s.static_framework = true
   s.source         = { :git => "https://github.com/oblador/react-native-vector-icons.git", :tag => "v#{s.version}" }
   s.source_files   = 'RNVectorIconsManager/**/*.{h,m}'
   s.resources      = "Fonts/*.ttf"
